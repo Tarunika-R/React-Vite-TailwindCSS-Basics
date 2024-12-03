@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import CompanyLogo from "./components/CompanyLogo"
+import ContentSection from "./components/ContentSection";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       </main>
       {/* CompanyLogo Section*/}
       <CompanyLogo />
+      <ContentSection />
     </div>
   );
 };
