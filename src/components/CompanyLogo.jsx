@@ -9,7 +9,7 @@ const CompanyGrid = () => {
   ];
 
   return (
-    <div className="bg-black">
+    <div className="bg-black pt-16">
       <div className="max-w-6xl mx-auto text-center">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 pl-10">
           {companies.map((company, index) => (

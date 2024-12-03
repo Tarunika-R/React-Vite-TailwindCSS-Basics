@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentSection = () => {
   return (
-    <div className="flex flex-col items-start w-full px-48 py-36">       
+    <div className="flex flex-col items-start w-full px-48 py-32">       
       <div className="flex-1 text-left space-y-2">
         <h2 className="text-7xl font-semibold leading-tight">
           Unleash Your <span className="text-purple-400">Creativity</span>
