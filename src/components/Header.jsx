@@ -6,9 +6,12 @@ const Header = () => {
   return (
     <main className="bg-black-900 text-white py-6 px-5 font-mazzard">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <h1 className="text-xl font-bold px-16">NajmAI</h1>
-
+        {/* Logo and Company Name */}
+        <div className="flex items-center space-x-3 px-16">
+          <img src="/icons/l0.png" alt="NajmAI logo" className="w-10 h-10 object-contain"
+          />
+          <h1 className="text-xl font-bold">NajmAI</h1>
+        </div>
         {/* "More Templates" and Hamburger Menu */}
         <div className="flex items-center space-x-4 px-16">
           {/* More Templates Link */}
