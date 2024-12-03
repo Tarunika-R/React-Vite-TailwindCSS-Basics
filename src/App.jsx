@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import CompanyLogo from "./components/CompanyLogo"
 import ContentSection from "./components/ContentSection";
 import FeatureSection from "./components/FeatureSection";
+import FooterSection from "./components/FooterSection";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
 
         {/* Feature Section */}
         <FeatureSection />
+
+        {/* Footer Section */}
+        <FooterSection />
       </main>
     </div>
   );
