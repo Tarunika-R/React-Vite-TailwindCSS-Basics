@@ -14,29 +14,29 @@ const ContentSection = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-center mt-16 gap-12">
+      <div className="flex justify-between items-center mt-7 gap-5">
         {/* Feature 1 */}
-        <div className="flex flex-col bg-gray-800 text-white p-6 rounded-lg shadow-lg"
+        <div className="flex flex-col bg-gray-800 text-white p-6 pl-3 pt-3 rounded-2xl shadow-lg"
         style={{ backgroundColor: "#272829" }}>
-          <img src="/icons/f1.png" alt="Logo 1" className="w-24 h-24 object-contain mb-4" />
-          <h3 className="text-2xl font-semibold mb-2">Feature 1</h3>
-          <p className="text-center text-lg">Short description of the first featured item goes here.</p>
+          <img src="/icons/f1.png" alt="Logo 1" className="w-16 h-16 object-contain mb-4" />
+          <h3 className="text-3xl font-semibold mb-2 pl-2">Upload Brief</h3>
+          <p className="text-sm pl-2">Share your project details and let our AI grasp your vision.</p>
         </div>
 
         {/* Feature 2 */}
-        <div className="flex flex-col bg-gray-800 text-white p-6 rounded-lg shadow-lg"
+        <div className="flex flex-col bg-gray-800 text-white p-6 pl-3 pt-3 rounded-2xl shadow-lg"
         style={{ backgroundColor: "#272829" }}>
-          <img src="/icons/f2.png" alt="Logo 2" className="w-24 h-24 object-contain mb-4" />
-          <h3 className="text-2xl font-semibold mb-2">Feature 2</h3>
-          <p className="text-center text-lg">Short description of the second featured item goes here.</p>
+          <img src="/icons/f2.png" alt="Logo 2" className="w-16 h-16 object-contain mb-4" />
+          <h3 className="text-3xl font-semibold mb-2 pl-2">Generate Designs</h3>
+          <p className="text-sm pl-2">Watch as our aI crafts unique design ideas tailored to you.</p>
         </div>
 
         {/* Feature 3 */}
-        <div className="flex flex-col bg-gray-800 text-white p-6 rounded-lg shadow-lg"
+        <div className="flex flex-col bg-gray-800 text-white p-6 pl-3 pt-3 rounded-2xl shadow-lg"
         style={{ backgroundColor: "#272829" }}>
-          <img src="/icons/f3.png" alt="Logo 3" className="w-24 h-24 object-contain mb-4" />
-          <h3 className="text-2xl font-semibold mb-2">Feature 3</h3>
-          <p className="text-center text-lg">Short description of the third featured item goes here.</p>
+          <img src="/icons/f3.png" alt="Logo 3" className="w-16 h-16 object-contain mb-4" />
+          <h3 className="text-3xl font-semibold mb-2 pl-2">Refine Creation</h3>
+          <p className="text-sm pl-2">Perfect your chosen concept with easy-to-use AI tools.</p>
         </div>
         </div>
       </div>
