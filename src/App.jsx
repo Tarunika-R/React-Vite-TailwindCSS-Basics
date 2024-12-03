@@ -1,20 +1,22 @@
 import React from "react";
 import Header from "./components/Header";
+import CompanyLogo from "./components/CompanyLogo"
 
 const App = () => {
   return (
-    <div className="bg-black text-gray-300 min-h-screen font-mazzard">
+    <div className="bg-black text-gray-300 min-h-screen font-sans">
       <Header />
       <main className="bg-black text-white py-16">
         <div
-          className="max-w-6xl mx-auto bg-gray-800 text-white p-10 rounded-3xl shadow-lg"
+          className="max-w-6xl mx-auto bg-gray-800 text-white p-10 rounded-3xl shadow-lg relative"
           style={{ backgroundColor: "#272829" }}
         >
           {/* Main Content */}
-          <div className="flex flex-col md:flex-row items-center justify-between relative">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+
             {/* Text Section */}
             <div className="text-center md:text-left md:w-1/2">
-              <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+              <h2 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
                 Your AI-Powered <br />
                 <span className="text-purple-400">Design Assistant</span>
               </h2>
@@ -25,23 +27,26 @@ const App = () => {
                 <button className="bg-purple-600 text-white py-3 px-6 rounded hover:bg-purple-500">
                   Get Started
                 </button>
-                <button className="bg-gray-700 text-white py-3 px-6 rounded hover:bg-gray-600">
+                <button className="bg-gray-800 text-white py-3 px-6 rounded hover:bg-gray-600"
+                style={{ backgroundColor: "#272829" }}>
                   More Templates
                 </button>
               </div>
             </div>
 
-            {/* Hero Image */}
-            <div className="absolute right-0 bottom-0 w-1/3 h-72 md:h-96">
+            {/* Hero Image Wrapper */}
+            <div className="absolute bottom-0 right-0 w-48 md:w-64 lg:w-80 h-auto">
               <img
-                src="bg.png" // Add your image URL here
+                src="bg.png" 
                 alt="Hero Image"
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                className="w-full h-full object-contain rounded-lg shadow-lg"
               />
             </div>
           </div>
         </div>
       </main>
+      {/* CompanyLogo Section*/}
+      <CompanyLogo />
     </div>
   );
 };

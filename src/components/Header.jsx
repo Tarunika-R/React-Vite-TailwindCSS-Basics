@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className="text-xl font-bold px-16">NajmAI</h1>
 
         {/* "More Templates" and Hamburger Menu */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 px-16">
           {/* More Templates Link */}
           <a href="#home" className="hover:font-semibold">
             More Templates
@@ -18,7 +18,8 @@ const Header = () => {
 
           {/* Hamburger Menu Icon (Always Visible) */}
           <button
-            className="bg-gray-700 text-white p-2 rounded focus:outline-none hover:bg-gray-600"
+            className="bg-gray-800 text-white p-2 rounded focus:outline-none hover:bg-gray-600"
+            style={{ backgroundColor: "#272829" }}
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <svg
