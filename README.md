@@ -116,7 +116,7 @@ npm install
 ```bash
 npm run dev
 ```
-**4. Opeen the app in your browser at ```http://localhost:3000```
+**4. Open the app in your browser at ```http://localhost:3000```**
 ---
 
 ## 🚀 Features Implemented
