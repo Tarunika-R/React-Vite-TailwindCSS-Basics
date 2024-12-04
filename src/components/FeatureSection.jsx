@@ -26,7 +26,7 @@ const FeatureSection = () => {
     ];
 
     return (
-        <div className="space-y-24 px-48 py-24">
+        <div className="space-y-24 px-10 md:px-48 py-24">
         {features.map((feature, index) => (
             <div key={index} 
                 className={`flex flex-col md:flex-row items-center justify-between w-full ${ 
