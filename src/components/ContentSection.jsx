@@ -24,15 +24,15 @@ const ContentSection = () => {
         </div>
 
         {/* Feature 2 */}
-        <div className="text-white p-6 pl-3 pt-3 rounded-2xl shadow-lg"
+        <div className="text-white p-7 md:p-6 md:pt-3 pl-3 rounded-2xl shadow-lg"
         style={{ backgroundColor: "#272829" }}>
-          <img src="/icons/f2.png" alt="Logo 2" className="w-16 h-16 object-contain mb-4" />
+          <img src="/icons/f2.png" alt="Logo 2" className="w-16 h-16 object-contain mb-4 " />
           <h3 className="text-lg md:text-3xl font-semibold mb-2 pl-2">Generate Designs</h3>
           <p className="text-sm pl-2">Watch as our aI crafts unique design ideas tailored to you.</p>
         </div>
 
         {/* Feature 3 */}
-        <div className="text-white p-6 pl-3 pt-3 rounded-2xl shadow-lg"
+        <div className="text-white col-span-2 p-6 pl-3 pt-3 rounded-2xl shadow-lg"
         style={{ backgroundColor: "#272829" }}>
           <img src="/icons/f3.png" alt="Logo 3" className="w-16 h-16 object-contain mb-4" />
           <h3 className="text-lg  md:text-3xl font-semibold mb-2 pl-2">Refine Creation</h3>
