@@ -95,6 +95,8 @@ Run the server and you should see a styled page with a centered message.
 src/
 ├── components/
 │   ├── HeaderSection.jsx       # Header Section of the application
+│   ├── HeroSection.jsx         # Hero Section of the application
+│   ├── CompanyLogo.jsx         # Company Logo with names and logos
 │   ├── ContentSection.jsx      # Content Section with feature highlights
 │   ├── FeatureSection.jsx      # Feature Section with text and image layout
 │   ├── FooterSection.jsx       # Footer Section with CTA and feature cards
