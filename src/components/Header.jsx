@@ -17,7 +17,7 @@ const Header = () => {
         </div>
 
           {/* Hamburger Menu Icon (Always Visible) */}
-          <div className="flex items-center space-x-4 md:px-16">
+          <div className="flex items-center space-x-5 md:px-16 text-sm md:text-lg ">
             <a href="#home" className="hover:font-semibold">
               More Templates
             </a>
