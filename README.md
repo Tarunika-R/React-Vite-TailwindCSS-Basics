@@ -122,7 +122,7 @@ npm run dev
 ## 🚀 Features Implemented
 
 1. **Header Section**:  
-   A simple, clean and visually appealing header section.
+   - A simple, clean and visually appealing header section.
 
 2. **Content Section**:  
    - Highlights key features with clear and concise headings, descriptions, and icons.  
