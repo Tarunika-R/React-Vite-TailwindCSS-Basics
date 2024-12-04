@@ -43,7 +43,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Dropdown Menu for Small Screens */}
+      {/* Dropdown Menu for Small Screens 
       {menuOpen && (
         <div className="bg-gray-800 text-white p-4 mt-2">
           <ul className="space-y-2">
@@ -64,7 +64,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      )}
+      )}*/}
     </main>
   );
 };
